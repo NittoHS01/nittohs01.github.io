@@ -1,0 +1,25 @@
+@media screen and (max-width:  900px){
+    body{
+        background-color: blue;
+
+    }
+}
+
+@media screen and (max-width: 480px){
+    body{
+        background-color: #8f0505;
+        
+    }
+    header nav{
+        display: none;
+    }
+    header h1{
+        width: 90%;
+    }
+    section#main h2{
+        margin-top: 100px;
+    }
+    section#contact .columna{
+        width: 100%;
+    }
+    }
